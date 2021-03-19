@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
       )
       .subscribe((event: NavigationStart) => {
         if (event.navigationTrigger === "popstate") {
-          confirm("Do you wanna discard or save changes ?");
+          // confirm("Do you wanna discard or save changes ?");
         }
       });
   }
