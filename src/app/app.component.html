@@ -1,29 +1,11 @@
 <section class="p-4" id="page-content">
-	<nav class="row d-inline-block">
-		<a class="col" routerLink="./profile" routerLinkActive="active">PROFILE</a>
-		<a class="col" routerLink="./dashboard" routerLinkActive="active">DASHBOARD</a>
-	</nav>
-	<slot>
-		<router-outlet></router-outlet>
-	</slot>
-	<details>
-		<summary>
-			<strong>
-    👇 <mark>EXCUSE ME CHECK THE CONSOLE !!</mark>
-      </strong>
-		</summary>
-		<ol class="pt-4">
-			<li>
-				Toggle between Profile and dashboard
-			</li>
-			<li>
-				click the browser back forward buttons and check the console
-			</li>
-		</ol>
-	</details>
+  <nav class="row d-inline-block">
+    <a class="col" routerLink="./dashboard" routerLinkActive="active"
+      >DASHBOARD</a
+    >
+    <a class="col" routerLink="./handoff" routerLinkActive="active">Handoff</a>
+  </nav>
+  <slot>
+    <router-outlet></router-outlet>
+  </slot>
 </section>
-<footer class="py-4 bg-dark text-white-50">
-	<div class="container text-center">
-		<small>Copyright &copy; SOURAV DUTTA - {{today}}</small>
-	</div>
-</footer>
