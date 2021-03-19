@@ -1,0 +1,11 @@
+section {
+  background: #1e1e1e;
+  color: #fff
+}
+nav {
+  font-size: 2em;
+  font-weight: bold;
+}
+nav .active {
+  color: lightgreen;
+}
